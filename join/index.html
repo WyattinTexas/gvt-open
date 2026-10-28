@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<!-- CARD-INV-W THE JOIN PAGE + CARD-INV-ST THE STORE (design/squad-text-invite-1006/03-BUILD-INV-ST.md) + CARD-INV-HM THE PICTURE (05-BUILD-INV-HM.md: A4, the image tags read og.jpg?v=a4s (A4 SAFE: the parts that matter inside the middle a phone card keeps); the one source is now build-inv-hm/join/src/join.html): a text's link lands here. Messages reads the Open
+     Graph tags below for its rich card (the sender's phone fetches this page at compose time). A friend who has the app never sees this page: the link opens
+     the app (CARD-INV-B). A friend who does not is sent straight to the store by the one line of script: the App Store page everywhere, Google Play on an
+     Android phone, the web game (../?join=CODE&by=SENDER) only on an Amazon tablet, which has no store page. A preview fetcher (iMessage's identifies
+     itself as facebookexternalhit / Twitterbot) is never redirected: it reads the tags and leaves. The same page stands at playgvt.net/join/ and
+     drbango.com/gvt/join/ (the three host lines differ, nothing else). The kit: build-inv-st/ (src/join.html is the one source; mk_join.sh writes both copies). -->
+<title>Join my squad in Green vs Tan</title>
+<meta name="description" content="Plastic army men. Real friends. One tap and you're in.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Green vs Tan">
+<meta property="og:title" content="Join my squad in Green vs Tan">
+<meta property="og:description" content="Plastic army men. Real friends. One tap and you're in.">
+<meta property="og:image" content="https://drbango.com/gvt/join/og.jpg?v=a4s">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Green and tan army men fight in the snow in Green vs Tan, the globe beside them">
+<meta property="og:url" content="https://drbango.com/gvt/join/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Join my squad in Green vs Tan">
+<meta name="twitter:description" content="Plastic army men. Real friends. One tap and you're in.">
+<meta name="twitter:image" content="https://drbango.com/gvt/join/og.jpg?v=a4s">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<script>if(!/facebookexternalhit|Facebot|Twitterbot|Slackbot|Discordbot|WhatsApp|LinkedInBot|TelegramBot|Googlebot|bingbot/i.test(navigator.userAgent))location.replace((function(u,q){if(/Silk|Kindle|\bKF[A-Z]{2,}/.test(u)){var s=(q.match(/[?&]s=([A-Za-z0-9]{4,8})(?:&|$)/)||[])[1],b=(q.match(/[?&]by=([0-9A-Fa-f]{8,40})(?:&|$)/)||[])[1];return '../'+(s?'?join='+s.toUpperCase()+(b?'&by='+b.toLowerCase():''):'');}return /Android/i.test(u)?'https://play.google.com/store/apps/details?id=com.corkscrewgames.gvt':'https://apps.apple.com/app/id6793353373';})(navigator.userAgent,location.search));</script>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;background:#1a1512}
+body{font-family:'Arial Narrow',Impact,'Helvetica Neue',Arial,sans-serif;font-weight:800;color:#EDEADF;min-height:100dvh;display:flex;align-items:center;justify-content:center;
+  padding:max(20px,env(safe-area-inset-top)) 20px max(20px,env(safe-area-inset-bottom));overflow:hidden;text-transform:uppercase;text-align:center;
+  background:radial-gradient(ellipse at 50% 45%,#1C2C36 0%,#0C1014 72%)}
+main{width:100%;max-width:440px}
+.logo .g{font-size:clamp(64px,22vw,112px);line-height:.95;letter-spacing:.04em;color:#7FA35C;text-shadow:0 0 22px rgba(127,163,92,.55)}
+.logo .vs{display:block;font-size:clamp(18px,6vw,30px);letter-spacing:.55em;padding-left:.55em;color:#EDEADF;margin:6px 0}
+.logo .t{font-size:clamp(64px,22vw,112px);line-height:.95;letter-spacing:.06em;color:#D2B489;text-shadow:0 0 22px rgba(210,180,137,.5)}
+.tag{margin:22px auto 18px;font-size:clamp(15px,4.6vw,20px);letter-spacing:.14em}
+.row{display:flex;gap:12px;justify-content:center}
+.btn{display:flex;align-items:center;justify-content:center;flex:1 1 0;min-width:0;min-height:64px;padding:12px 10px;border-radius:40px;text-decoration:none;
+  font-size:clamp(15px,4.4vw,21px);letter-spacing:.08em;border:4px solid #FFF3C4;color:#2a2008;background:#FFD24A}
+</style>
+</head>
+<body>
+<main>
+  <div class="logo"><span class="g">GREEN</span><span class="vs">vs</span><span class="t">TAN</span></div>
+  <p class="tag">JOIN MY SQUAD · GET THE APP</p>
+  <div class="row"><a class="btn" href="https://apps.apple.com/app/id6793353373">APP STORE</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.corkscrewgames.gvt">GOOGLE PLAY</a></div>
+</main>
+</body>
+</html>
